@@ -39,7 +39,8 @@ style: |
 
   .rule {
     height: 3px;
-    background: rgba(0,0,0,0.3);
+    width: auto;
+    background: rgba(1, 37, 55, 0.3);
     margin: 12px 0 18px 0;
   }
 
@@ -59,9 +60,7 @@ style: |
   }
 ---
 
-<!-- ===================== -->
-<!-- Title -->
-<!-- ===================== -->
+
 <!-- _class: title -->
 
 # CourseMate
@@ -78,13 +77,13 @@ Palestine Polytechnic University
 # Context & Motivation
 <div class="rule"></div>
 
-- Course registration is a **mission-critical academic process**.
-- At PPU, the current system is **semi-manual**.
+- Course registration is a **critical academic process**.
+- At PPU, the current system is **Semi-Manual**.
 - Heavy human intervention leads to:
   - delays,
-  - communication gaps,
+  - human-induced bottlenecks
   - frequent registration errors.
-- Recent advances in **AI for education** enable intelligent automation.
+- * AI and other technologies could be leveraged to enable intelligent automation.
 
 ---
 
@@ -92,12 +91,10 @@ Palestine Polytechnic University
 <div class="rule"></div>
 
 - Students face:
-  - unclear course availability,
-  - hidden prerequisites and credit constraints,
-  - missed opportunities due to late seat updates.
+  - Limited semester-based academic planning increase students’ reliance on academic advising to ensure     proper course selection, understand academic warnings affecting registration, and improve their academic standing.
+  - missed opportunities due to the absence of a notification system.
 - Supervisors handle:
   - repetitive advising,
-  - manual approvals,
   - high workload during peak periods.
 - Result: **inefficient, error-prone registration workflow**.
 
@@ -111,7 +108,7 @@ Palestine Polytechnic University
   - validates academic rules,
   - detects conflicts,
   - recommends feasible schedules.
-- Acts as a **decision-support system** for students and supervisors.
+- Acts as a **decision-support system** for students and supervisors rather that a **System of Records**.
 
 ---
 
@@ -119,7 +116,7 @@ Palestine Polytechnic University
 # Scope & Constraints
 <div class="rule"></div>
 
-- Focus on **Bachelor’s degree programs** only.
+- Focus on **Bachelor’s degree programs ecxipt medicine** only.
 - Target users:
   - students,
   - academic supervisors.
@@ -130,16 +127,12 @@ Palestine Polytechnic University
 
 ---
 
-# Methodology & Contribution
+# Methodology 
 <div class="rule"></div>
 
 - Plan-driven **Waterfall methodology** with prototype validation.
 - Selected due to:
   - rule-sensitive academic domain,
-  - need for early error detection.
-- Contribution:
-  - structured AI-assisted registration workflow,
-  - scalable foundation for intelligent academic services.
-
-
+  - need for early error detection,
+  - the university workflow is phase-based, with the first semester dedicated to introduction and planning, and the second semester focused on implementation. 
 
